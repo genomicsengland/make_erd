@@ -71,6 +71,8 @@ else:
     fn = tempfile.mkdtemp() + '/' + args.database + '.pdf'
     graph.write_pdf(fn)
 
+e.dispose()
+
 # open up the file
 print('-- Opening %s' % fn)
 subprocess.Popen('open %s' % fn, shell=True)
