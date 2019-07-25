@@ -27,4 +27,4 @@ sqlalchemy-schemadisplay==1.3
 
 ## Example
 
-![Example ERD]()
+![Example ER Diagram](example.png?raw=true "Example")
